@@ -1,0 +1,36 @@
+# --------------------------
+# ✅ KEEP ESSENTIAL FILES
+# Project: .kicad_pro, .kicad_sch, .kicad_pcb
+# Libraries: sym-lib-table
+# Netlist: .net, .xml, .ipc
+# Production: production/TIA_mplifier.zip
+# --------------------------
+
+# 🔒 Lock/temp/autosave files
+~*
+*.lck
+_autosave-*
+
+# 🚫 Ignore project backup archives
+TIA_mplifier-backups/
+production/backups/
+*.zip
+!production/TIA_mplifier.zip      # ✅ KEEP FINAL PRODUCTION ZIP
+
+# 🧹 Ignore generated BOMs and positions (can regenerate)
+production/*.csv
+
+# ⚠️ KEEP netlist
+!production/*.ipc
+!*.net
+
+# 🧠 KiCad cache & local session data
+fp-info-cache
+*.kicad_prl
+
+# 📁 Top-level manually exported zip file
+productionTIAmplifier.zip
+
+# ✅ Do not ignore actual folders (required for Git to track their contents)
+!production/
+
