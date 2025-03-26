@@ -29,7 +29,7 @@ fp-info-cache
 *.kicad_prl
 
 # 📁 Top-level manually exported zip file
-productionTIAmplifier.zip
+!productionTIAmplifier.zip
 
 # ✅ Do not ignore actual folders (required for Git to track their contents)
 !production/
