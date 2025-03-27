@@ -16,7 +16,7 @@ TIA_mplifier-backups/
 production/backups/
 
 !production/TIA_mplifier.zip      # ✅ KEEP FINAL PRODUCTION ZIP
-*.zip
+
 # 🧹 Ignore generated BOMs and positions (can regenerate)
 production/*.csv
 
