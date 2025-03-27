@@ -14,9 +14,9 @@ _autosave-*
 # 🚫 Ignore project backup archives
 TIA_mplifier-backups/
 production/backups/
-*.zip
-!production/TIA_mplifier.zip      # ✅ KEEP FINAL PRODUCTION ZIP
 
+!production/TIA_mplifier.zip      # ✅ KEEP FINAL PRODUCTION ZIP
+*.zip
 # 🧹 Ignore generated BOMs and positions (can regenerate)
 production/*.csv
 
